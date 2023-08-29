@@ -103,5 +103,3 @@ function calculate() {
     }
 }
 </script> 
-
-<!-- test -->
