@@ -8,12 +8,14 @@ type: plans
 courses: { compsci: {week: 1} }
 ---
 
-### PBL Unit 1 / Week 1
+### Week 1
 Learning outcome. Building a personal and running GitHub Pages.
-- Monday: Schedule Live Review - 4 minutes. Finish Tools setup. Attend Office Hours on HTML, CSS, JS and Student Blog.
-- Tuesday: Read [Markdown Student Page](https://nighthawkcoders.github.io/teacher//c4.3/c5.0/2023/08/17/markdown-html_fragments.html), Attend Office Hours on Updating Home Page and Plan Page.
-- Wednesday: Work Plan Page and Home Page.  Prep with pair on live review.
-- Thursday: 10:45 live review per Canvas.  Read [Linux Shell and Bash](https://nighthawkcoders.github.io/teacher//5.a/c4.1/2023/08/16/linux_shell_IPYNB_2_.html).  Tranfer blog and customize for my lab notebook.
+- Make Lab Notebook rows/columns for each week 0, 1, 2.  Make a hack (IPYNB) and review/exit ticket for each row.   
+- Get github.io public site running.  This will work after GitHub sync.
+- Work on revising IPYNB file(s) and add in required Hacks.  Learn how to do  “Code Fencing”, “Code Cells”.  
+- Revise  Linux Shell  and Python IO IPYNB, prune and perform hacks to match my understanding.
+- Revise Home Page to only be a Lab Notebook Cover sheet,  Remove some of the content that I mistakingly put on this page regarding weekly plans and hacks …. move this information into my Lab Notebook rows/columns.
+- Work on adding a Project, my choice will be a Calculator and I will add it as an independent _post that will be in Week1 hacks of my Notebook.
 
 
 ### Pair Planning Meeting

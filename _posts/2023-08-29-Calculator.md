@@ -4,6 +4,8 @@ comments: true
 layout: post
 title: Calculator
 description: add, subtract, multiply, divide
+courses: { compsci: {week: 0} }
+type: hacks
 ---
 
 <div id="calculator">
