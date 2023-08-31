@@ -1,10 +1,10 @@
 ---
 toc: true
 comments: false
-hide: true
 layout: post
-type: help
+type: hacks
 title: GitHub Overview
+courses: { compsci: {week: 1}}
 ---
 
 ## References
