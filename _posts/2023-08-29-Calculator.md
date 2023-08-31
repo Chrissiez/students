@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Calculator
 description: add, subtract, multiply, divide
-courses: { compsci: {week: 2} }
+courses: { compsci: {week: 1} }
 type: hacks
 ---
 
