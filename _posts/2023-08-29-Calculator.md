@@ -1,10 +1,10 @@
 ---
 toc: true
-comments: true
+comments: false 
 layout: post
 title: Calculator
 description: add, subtract, multiply, divide
-courses: { compsci: {week: 0} }
+courses: { compsci: {week: 2} }
 type: hacks
 ---
 
