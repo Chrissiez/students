@@ -3,9 +3,9 @@ toc: true
 comments: false
 layout: post
 title: Review Ticket
-description: plan check present
+description: check plan present
 type: tangibles
-courses: { compsci: {week: 2} }
+courses: { compsci: {week: 1} }
 ---
 
 ### Summary of Accomplishments

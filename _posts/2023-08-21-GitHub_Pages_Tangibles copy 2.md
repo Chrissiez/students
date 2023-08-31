@@ -5,7 +5,7 @@ layout: post
 title: Review Ticket
 description: plan check present
 type: tangibles
-courses: { compsci: {week: 2} }
+courses: { compsci: {week: 0} }
 ---
 
 ### Summary of Accomplishments
