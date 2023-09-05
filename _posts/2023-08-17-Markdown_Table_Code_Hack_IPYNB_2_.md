@@ -4,7 +4,7 @@ comments: True
 layout: post
 title: IPYNB Table, Code
 description: Example!!! This sample shows markdown cell, markdown table, markdown code fencing, and code cells.
-courses: { compsci: {week: 0} }
+courses: {'compsci': {'week': 1}}
 type: hacks
 ---
 

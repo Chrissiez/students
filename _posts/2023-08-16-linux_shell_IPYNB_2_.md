@@ -1,11 +1,11 @@
 ---
+toc: False
+comments: False
 layout: post
 title: Linux Shell and Bash
 description: A Tech Talk on Linux and the Bash shell.
-toc: True
-comments: True
+courses: {'compsci': {'week': 2}}
 type: hacks
-courses: { compsci: {week: 0} }
 ---
 
 ## Bash Tutorial
