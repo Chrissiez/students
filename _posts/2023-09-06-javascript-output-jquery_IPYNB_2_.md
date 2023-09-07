@@ -1,28 +1,18 @@
 ---
 title: JS Output w/ jquery
 toc: True
-description: A Tech Talk on outputs using HTML and Javascript. This uses jquery for easy onscreen interaction and filtering.
-courses: {'csse': {'week': 3}, 'csp': {'week': 2, 'categories': ['3.A', '5.B']}, 'csa': {'week': 2}}
-categories: ['C3.0', 'C3.1', 'C4.1']
-type: ccc
+description: Notes on using html and javascript to create tables
+courses: {'compsci': {'week': 1}}
+type: hacks
 ---
 
 ### Markdown Table
-Google [markdown cheat sheet](https://www.markdownguide.org/extended-syntax/#tables) and it lead you to an outline for how to make a table.
+Use [markdown cheat sheet](https://www.markdownguide.org/extended-syntax/#tables) and it will show you an outline for a basic table
 
-| Make | Model | Year | Color | Price |
-|------|-------|------|-------|-------|
-|Ford|Mustang|2022|Red|$35,000|
-|Toyota|Camry|2022|Silver|$25,00|
-|Tesla|Model S|2022|White|$80,000|
-|Cadillac|Broughan|1969|Black|$10,000|
-|Ford|F-350|1997|Green|$15,000|
-|Ford|Excursion|2003|Green|$25,000|
-|Ford|Ranger|2012|Red|$8,000|
-|Kuboto|L3301 Tractor|2015|Orange|$12,000|
-|Ford|Fusion Energi|2015|Green|$15,000|
-|Acura|XL|2006|Grey|$10,000|
-|Ford|F150 Lightning|2023|Grey|$70,000|
+| Syntax | Description |
+| ----------- | ----------- |
+| Header | Title |
+| Paragraph | Text |
 
 ### HTML Table
 Google [w3schools html table](https://www.w3schools.com/html/html_tables.asp) and it will lead you to a tutorial on how to make tables.
@@ -38,90 +28,160 @@ Google [w3schools html table](https://www.w3schools.com/html/html_tables.asp) an
     <table class="table">
         <thead>
             <tr>
-                <th>Make</th>
-                <th>Model</th>
-                <th>Year</th>
-                <th>Color</th>
-                <th>Price</th>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Team</th> 
+                <th>Position</th>
+                <th>Hitting Percentage</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Ford</td>
-                <td>Mustang</td>
-                <td>2022</td>
-                <td>Red</td>
-                <td>$35,000</td>
+                <td>1</td>
+                <td>Andi Jackson</td>
+                <td>Nebraska</td>
+                <td>MB</td>
+                <td>.581</td>
             </tr>
             <tr>
-                <td>Toyota</td>
-                <td>Camry</td>
-                <td>2022</td>
-                <td>Silver</td>
-                <td>$25,000</td>
+                <td>2</td>
+                <td>Lucia Scalamandre</td>
+                <td>Princeton</td>
+                <td>MB</td>
+                <td>.568</td>
             </tr>
             <tr>
-                <td>Tesla</td>
-                <td>Model S</td>
-                <td>2022</td>
-                <td>White</td>
-                <td>$80,000</td>
+                <td>3</td>
+                <td>Beau Vanderlann</td>
+                <td>Brown</td>
+                <td>MB</td>
+                <td>.564</td>
             </tr>
             <tr>
-                <td>Cadillac</td>
-                <td>Broughan</td>
-                <td>1969</td>
-                <td>Black</td>
-                <td>$10,000</td>
+                <td>4</td>
+                <td>Khori Louis</td>
+                <td>Florida St.</td>
+                <td>MB</td>
+                <td>.561</td>
             </tr>
             <tr>
-                <td>Ford</td>
-                <td>F-350</td>
-                <td>1997</td>
-                <td>Green</td>
-                <td>$15,000</td>
+                <td>5</td>
+                <td>Kristen Erland</td>
+                <td>Saint Mary's</td>
+                <td>MB</td>
+                <td>.548</td>
             </tr>
             <tr>
-                <td>Ford</td>
-                <td>Excursion</td>
-                <td>2003</td>
-                <td>Green</td>
-                <td>$25,000</td>
+                <td>6</td>
+                <td>Cara Cresse</td>
+                <td>Louisville</td>
+                <td>MB</td>
+                <td>.547</td>
             </tr>
             <tr>
-                <td>Ford</td>
-                <td>Ranger</td>
-                <td>2012</td>
-                <td>Red</td>
-                <td>$8,000</td>
+                <td>7</td>
+                <td>Annamarie</td>
+                <td>UIW</td>
+                <td>MB</td>
+                <td>.547</td>
             </tr>
             <tr>
-                <td>Kuboto</td>
-                <td>L3301 Tractor</td>
-                <td>2015</td>
-                <td>Orange</td>
-                <td>$12,000</td>
+                <td>8</td>
+                <td>Alexia Kuehl</td>
+                <td>Colorado</td>
+                <td>MB</td>
+                <td>.532</td>
             </tr>
             <tr>
-                <td>Ford</td>
-                <td>Fusion Energi</td>
-                <td>2015</td>
-                <td>Guard</td>
-                <td>$25,000</td>
+                <td>9</td>
+                <td>Claire Jeter</td>
+                <td>Arizona St.</td>
+                <td>MB</td>
+                <td>.508</td>
             </tr>
             <tr>
-                <td>Acura</td>
-                <td>XL</td>
-                <td>2006</td>
-                <td>Grey</td>
-                <td>$10,000</td>
+                <td>10</td>
+                <td>Courtney Okwara</td>
+                <td>Buffalo</td>
+                <td>MB</td>
+                <td>.506</td>
             </tr>
             <tr>
-                <td>Ford</td>
-                <td>F150 Lightning</td>
-                <td>2024</td>
-                <td>Guard</td>
-                <td>$70,000</td>
+                <td>11</td>
+                <td>Madison Blane</td>
+                <td>Liberty</td>
+                <td>MB</td>
+                <td>.506</td>                
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Magda Jehlarova</td>
+                <td>Washington St.</td>
+                <td>MB</td>
+                <td>.500</td>                
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Eva Rohrbach</td>
+                <td>Maryland</td>
+                <td>MB</td>
+                <td>.500</td>                
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Isabel Bennett</td>
+                <td>Northern Colo.</td>
+                <td>MB</td>
+                <td>.491</td>                
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Becca Oldendorf</td>
+                <td>UIC</td>
+                <td>MB</td>
+                <td>.489</td>                
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Tierney Barlow</td>
+                <td>Wyoming</td>
+                <td>OH</td>
+                <td>.481</td>                
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Skyler Bumpers</td>
+                <td>Mercer</td>
+                <td>MB</td>
+                <td>.473</td>                
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Kirah Johnson</td>
+                <td>Delaware</td>
+                <td>MB</td>
+                <td>.471</td>                
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Emmy Ogogor</td>
+                <td>Wake Forest</td>
+                <td>MB</td>
+                <td>.467</td>                
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Kiari Robey</td>
+                <td>Florida St.</td>
+                <td>MB</td>
+                <td>.466</td>                
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Cara Lewis</td>
+                <td>Virgina Tech</td>
+                <td>MB</td>
+                <td>.463</td>                
             </tr>
         </tbody>
     </table>
@@ -151,8 +211,6 @@ JavaScript is a programming language that works with HTML data, CSS helps to sty
                 <th>Rank</th>
                 <th>Name</th>
                 <th>Team</th> 
-                <th>Grade</th>
-                <th>Height</th>
                 <th>Position</th>
                 <th>Hitting Percentage</th>
             </tr>
@@ -162,8 +220,6 @@ JavaScript is a programming language that works with HTML data, CSS helps to sty
                 <td>1</td>
                 <td>Andi Jackson</td>
                 <td>Nebraska</td>
-                <td>Freshman</td>
-                <td>6'3</td>
                 <td>MB</td>
                 <td>.581</td>
             </tr>
@@ -171,8 +227,6 @@ JavaScript is a programming language that works with HTML data, CSS helps to sty
                 <td>2</td>
                 <td>Lucia Scalamandre</td>
                 <td>Princeton</td>
-                <td>Sophomore</td>
-                <td>6'3</td>
                 <td>MB</td>
                 <td>.568</td>
             </tr>
@@ -180,8 +234,6 @@ JavaScript is a programming language that works with HTML data, CSS helps to sty
                 <td>3</td>
                 <td>Beau Vanderlann</td>
                 <td>Brown</td>
-                <td>Junior</td>
-                <td>6'1</td>
                 <td>MB</td>
                 <td>.564</td>
             </tr>
@@ -189,8 +241,6 @@ JavaScript is a programming language that works with HTML data, CSS helps to sty
                 <td>4</td>
                 <td>Khori Louis</td>
                 <td>Florida St.</td>
-                <td>Junior</td>
-                <td>6'3</td>
                 <td>MB</td>
                 <td>.561</td>
             </tr>
@@ -198,8 +248,6 @@ JavaScript is a programming language that works with HTML data, CSS helps to sty
                 <td>5</td>
                 <td>Kristen Erland</td>
                 <td>Saint Mary's</td>
-                <td>Junior</td>
-                <td>6'3</td>
                 <td>MB</td>
                 <td>.548</td>
             </tr>
@@ -207,8 +255,6 @@ JavaScript is a programming language that works with HTML data, CSS helps to sty
                 <td>6</td>
                 <td>Cara Cresse</td>
                 <td>Louisville</td>
-                <td>Junior</td>
-                <td>6'6</td>
                 <td>MB</td>
                 <td>.547</td>
             </tr>
@@ -216,8 +262,6 @@ JavaScript is a programming language that works with HTML data, CSS helps to sty
                 <td>7</td>
                 <td>Annamarie</td>
                 <td>UIW</td>
-                <td>Senior</td>
-                <td>6'2</td>
                 <td>MB</td>
                 <td>.547</td>
             </tr>
@@ -225,33 +269,99 @@ JavaScript is a programming language that works with HTML data, CSS helps to sty
                 <td>8</td>
                 <td>Alexia Kuehl</td>
                 <td>Colorado</td>
-                <td>Senior</td>
-                <td>6'6</td>
                 <td>MB</td>
                 <td>.532</td>
             </tr>
             <tr>
                 <td>9</td>
-                <td>Annamarie</td>
-                <td>UIW</td>
-                <td>Senior</td>
-                <td>6'2</td>
+                <td>Claire Jeter</td>
+                <td>Arizona St.</td>
                 <td>MB</td>
-                <td>.547</td>
+                <td>.508</td>
             </tr>
             <tr>
-                <td>Acura</td>
-                <td>XL</td>
-                <td>2006</td>
-                <td>Grey</td>
-                <td>$10,000</td>
+                <td>10</td>
+                <td>Courtney Okwara</td>
+                <td>Buffalo</td>
+                <td>MB</td>
+                <td>.506</td>
             </tr>
             <tr>
-                <td>Ford</td>
-                <td>F150 Lightning</td>
-                <td>2024</td>
-                <td>Guard</td>
-                <td>$70,000</td>
+                <td>11</td>
+                <td>Madison Blane</td>
+                <td>Liberty</td>
+                <td>MB</td>
+                <td>.506</td>                
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Magda Jehlarova</td>
+                <td>Washington St.</td>
+                <td>MB</td>
+                <td>.500</td>                
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Eva Rohrbach</td>
+                <td>Maryland</td>
+                <td>MB</td>
+                <td>.500</td>                
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Isabel Bennett</td>
+                <td>Northern Colo.</td>
+                <td>MB</td>
+                <td>.491</td>                
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Becca Oldendorf</td>
+                <td>UIC</td>
+                <td>MB</td>
+                <td>.489</td>                
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Tierney Barlow</td>
+                <td>Wyoming</td>
+                <td>OH</td>
+                <td>.481</td>                
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Skyler Bumpers</td>
+                <td>Mercer</td>
+                <td>MB</td>
+                <td>.473</td>                
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Kirah Johnson</td>
+                <td>Delaware</td>
+                <td>MB</td>
+                <td>.471</td>                
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>Emmy Ogogor</td>
+                <td>Wake Forest</td>
+                <td>MB</td>
+                <td>.467</td>                
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Kiari Robey</td>
+                <td>Florida St.</td>
+                <td>MB</td>
+                <td>.466</td>                
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>Cara Lewis</td>
+                <td>Virgina Tech</td>
+                <td>MB</td>
+                <td>.463</td>                
             </tr>
         </tbody>
     </table>
