@@ -148,76 +148,96 @@ JavaScript is a programming language that works with HTML data, CSS helps to sty
     <table id="md_demo" class="table">
         <thead>
             <tr>
-                <th>Make</th>
-                <th>Model</th>
-                <th>Year</th>
-                <th>Color</th>
-                <th>Price</th>
+                <th>Rank</th>
+                <th>Name</th>
+                <th>Team</th> 
+                <th>Grade</th>
+                <th>Height</th>
+                <th>Position</th>
+                <th>Hitting Percentage</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>Ford</td>
-                <td>Mustang</td>
-                <td>2022</td>
-                <td>Red</td>
-                <td>$35,000</td>
+                <td>1</td>
+                <td>Andi Jackson</td>
+                <td>Nebraska</td>
+                <td>Freshman</td>
+                <td>6'3</td>
+                <td>MB</td>
+                <td>.581</td>
             </tr>
             <tr>
-                <td>Toyota</td>
-                <td>Camry</td>
-                <td>2022</td>
-                <td>Silver</td>
-                <td>$25,000</td>
+                <td>2</td>
+                <td>Lucia Scalamandre</td>
+                <td>Princeton</td>
+                <td>Sophomore</td>
+                <td>6'3</td>
+                <td>MB</td>
+                <td>.568</td>
             </tr>
             <tr>
-                <td>Tesla</td>
-                <td>Model S</td>
-                <td>2022</td>
-                <td>White</td>
-                <td>$80,000</td>
+                <td>3</td>
+                <td>Beau Vanderlann</td>
+                <td>Brown</td>
+                <td>Junior</td>
+                <td>6'1</td>
+                <td>MB</td>
+                <td>.564</td>
             </tr>
             <tr>
-                <td>Cadillac</td>
-                <td>Broughan</td>
-                <td>1969</td>
-                <td>Black</td>
-                <td>$10,000</td>
+                <td>4</td>
+                <td>Khori Louis</td>
+                <td>Florida St.</td>
+                <td>Junior</td>
+                <td>6'3</td>
+                <td>MB</td>
+                <td>.561</td>
             </tr>
             <tr>
-                <td>Ford</td>
-                <td>F-350</td>
-                <td>1997</td>
-                <td>Green</td>
-                <td>$15,000</td>
+                <td>5</td>
+                <td>Kristen Erland</td>
+                <td>Saint Mary's</td>
+                <td>Junior</td>
+                <td>6'3</td>
+                <td>MB</td>
+                <td>.548</td>
             </tr>
             <tr>
-                <td>Ford</td>
-                <td>Excursion</td>
-                <td>2003</td>
-                <td>Green</td>
-                <td>$25,000</td>
+                <td>6</td>
+                <td>Cara Cresse</td>
+                <td>Louisville</td>
+                <td>Junior</td>
+                <td>6'6</td>
+                <td>MB</td>
+                <td>.547</td>
             </tr>
             <tr>
-                <td>Ford</td>
-                <td>Ranger</td>
-                <td>2012</td>
-                <td>Red</td>
-                <td>$8,000</td>
+                <td>7</td>
+                <td>Annamarie</td>
+                <td>UIW</td>
+                <td>Senior</td>
+                <td>6'2</td>
+                <td>MB</td>
+                <td>.547</td>
             </tr>
             <tr>
-                <td>Kuboto</td>
-                <td>L3301 Tractor</td>
-                <td>2015</td>
-                <td>Orange</td>
-                <td>$12,000</td>
+                <td>8</td>
+                <td>Alexia Kuehl</td>
+                <td>Colorado</td>
+                <td>Senior</td>
+                <td>6'6</td>
+                <td>MB</td>
+                <td>.532</td>
             </tr>
             <tr>
-                <td>Ford</td>
-                <td>Fusion Energi</td>
-                <td>2015</td>
-                <td>Guard</td>
-                <td>$25,000</td>
+                <td>9</td>
+                <td>Annamarie</td>
+                <td>UIW</td>
+                <td>Senior</td>
+                <td>6'2</td>
+                <td>MB</td>
+                <td>.547</td>
             </tr>
             <tr>
                 <td>Acura</td>
