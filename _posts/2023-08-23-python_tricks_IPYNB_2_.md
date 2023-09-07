@@ -2,9 +2,8 @@
 layout: post
 title: Python Tricks!
 description: Python is a versatile programming language that is widely used and thus it is supported by a wide range of libraries.
-courses: {'csp': {'week': 2, 'categories': ['1.A', '3.A', '4.B']}}
-categories: ['C4.0']
-type: ccc
+courses: {'compsci': {'week': 3}}
+type: hacks
 ---
 
 ### Emoji Print
