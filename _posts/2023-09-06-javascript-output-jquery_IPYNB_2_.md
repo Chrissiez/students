@@ -2,7 +2,7 @@
 title: JS Output w/ jquery
 toc: True
 description: Notes on using html and javascript to create tables
-courses: {'compsci': {'week': 1}}
+courses: {'compsci': {'week': 3}}
 type: hacks
 ---
 
