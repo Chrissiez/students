@@ -25,6 +25,9 @@ from emoji import emojize
 print(emojize(":thumbs_up: Python is awesome! :grinning_face:"))
 ```
 
+    👍 Python is awesome! 😀
+
+
 ### Extracting Data 
 Web sites become a lot more interesting when you are working with data, not trying to create it.  Here is some code using a library called newspaper, this extracts a couple of writeups from the CNN Entertainment site.
 - Learn more on [newspaper3k](https://newspaper.readthedocs.io/en/latest/)

@@ -11,6 +11,7 @@ courses: { compsci: {week: 3} }
 ### Accomplishments
 - Learned about different kinds of tables in html and javascript by paraphrasing notebook in my own words (jquery)
 - created a pong game
+- reivewed python tricks
 
 
 ### Mistakes/Learned
@@ -18,4 +19,7 @@ courses: { compsci: {week: 3} }
 - baseurl
 - line 7
 
-### Partner Talk
+### Arushi
+- made table
+- quiz
+- python bash
