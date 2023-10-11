@@ -31,7 +31,7 @@ Intended behavior: create a list of characters from the string contained in the 
 
 
 ```python
-%%js
+%% js
 
 var alphabet = "abcdefghijklmnopqrstuvwxyz";
 var alphabetList = [];
