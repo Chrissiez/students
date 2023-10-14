@@ -239,6 +239,7 @@ if answer == ("yes"):
     else:
         print("Incorrect, A Boolean expression produces a Boolean value (true or false) when evaluated.")
 
+    conditional_statment = input("What is the purpose of conditional statements? is it A, executing different statements based on the value of a Boolean expression. B, to ")
 else: 
     print("Ok, Have a good day.")
 

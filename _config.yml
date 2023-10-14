@@ -16,3 +16,8 @@ future: true
 
 github:
   zip_url: https://chrissiez.github.io/students
+
+html: 
+  comments:
+    utterances: 
+      repo: "Chrissiez/students"
