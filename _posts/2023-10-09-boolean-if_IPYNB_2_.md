@@ -193,15 +193,21 @@ import getpass  # Module to get the user's name
 import sys  # Module to access system-related information
 
 # Function to ask a question and get a response
-def question_with_response(prompt):
+def question_with_response(prompt, answer, correct):
     # Print the question
-    print("Question: " + prompt)
+    print(prompt)
     # Get user input as the response
     msg = input()
-    return msg
+    if msg == answer:
+        correct = True
+        print("That's correct")
+        return True
+    else:
+        print("Incorrect")
+        return False
 
 # Define the number of questions and initialize the correct answers counter
-questions = 5
+questions = 15
 correct = 0
 
 # Personalized greeting message
@@ -217,56 +223,107 @@ if answer == ("yes"):
     # Question 1: Boolean Basics 
     # Ask a question about Boolean values and check the response
     # Provide feedback based on the correctness of the response
+    question_with_response("What statement is used to evaluate booleans?", "if else", correct)
 
-    boolean_value = input("Name one of the Two Boolean Values:")
-    print("Question 1: Name one of the Two Boolean Values")
-    print("Answer: " + boolean_value)
-    if boolean_value == ("True") or ("False"):
-        print("Correct!")
-        correct += 1
-    else:
-        print("Incorrect, the two Boolean Values are True and False.")
-    
     # Question 2: Boolean Expressions
     # Ask a question about Boolean expressions and their importance in programming
     # Provide feedback based on the correctness of the response
-    boolean_expression = input("Is this an example of a Boolean Expression: (height1 + height2 + height3) / 3 >= 65?")
-    print("Question 2: Is this an example of a Boolean Expression: (height1 + height2 + height3) / 3 >= 65?")
-    print("Answer: " + boolean_expression)
-    if boolean_expression == ("yes"):
-        print("Correct!")
-        correct += 1
-    else:
-        print("Incorrect, A Boolean expression produces a Boolean value (true or false) when evaluated.")
+    question_with_response("Why are booleans important?", "evaluate values", correct)
 
-    conditional_statment = input("What is the purpose of conditional statements? is it A, executing different statements based on the value of a Boolean expression. B, to ")
+
+    # Question 3: Conditional Statements
+    # Ask a question about the purpose of conditional (if-else) statements in programming
+    # Provide feedback based on the correctness of the response
+    question_with_response("What is conditional for?", "control flow", correct)
+
+
+    # Question 4: Relational Operators
+    # Ask a question about common relational operators in programming and provide examples
+    # Provide feedback based on the correctness of the response
+    question_with_response("What is a common relational operator?", "!=", correct)
+
+
+    # Question 5: Logical Operators
+    # Ask a question about the use of logical operators in programming and provide examples
+    # Provide feedback based on the correctness of the response
+    question_with_response("What is the use of logical operators?", "connect expressions", correct)
+
+    # Question 6: Boolean Logic
+    # Ask a question about basic Boolean logic
+    # Provide feedback based on the correctness of the response
+    question_with_response("What is the result of 'True and True'?", "True", correct)
+
+    # Question 7: Boolean Values
+    # Ask a question about the possible values of a Boolean variable
+    # Provide feedback based on the correctness of the response
+    question_with_response("What are the possible values of a Boolean variable?", "True or False", correct)
+
+    # Question 8: if-else Statements
+    # Ask a question about the syntax of an if-else statement
+    # Provide feedback based on the correctness of the response
+    question_with_response("What is the syntax of an 'if-else' statement in Python?", "if condition: \n    # code block\nelse:\n    # code block", correct)
+
+    # Question 9: Conditional Statements
+    question_with_response("What is the purpose of an 'if' statement?", "Conditional execution", correct)
+
+    # Question 10: Relational Operators
+    question_with_response("What does '==' mean in Python?", "Equal to", correct)
+
+    # Question 11: Logical Operators
+    question_with_response("What is the result of 'True and False'?", "False", correct)
+
+    # Question 12: Boolean Data Type
+    question_with_response("In Python, what data type represents Boolean values?", "bool", correct)
+
+    # Question 13: Logical NOT
+    question_with_response("What is the result of 'not True'?", "False", correct)
+
+    # Question 14: Boolean Conversion
+    question_with_response("How can you convert a non-Boolean value to a Boolean in Python?", "bool() function", correct)
+
+    # Question 15: Combining Logical Operators
+    question_with_response("What is the result of 'True or (False and True)'?", "True", correct)
+
+    # Display the final score
+    # Calculate the percentage of correct answers and provide feedback
+    print(user_name + ", you scored " + str(correct) + "/" + str(questions))
 else: 
     print("Ok, Have a good day.")
 
-
-
-
-
-# Question 3: Conditional Statements
-# Ask a question about the purpose of conditional (if-else) statements in programming
-# Provide feedback based on the correctness of the response
-
-# Question 4: Relational Operators
-# Ask a question about common relational operators in programming and provide examples
-# Provide feedback based on the correctness of the response
-
-# Question 5: Logical Operators
-# Ask a question about the use of logical operators in programming and provide examples
-# Provide feedback based on the correctness of the response
-
-# Display the final score
-# Calculate the percentage of correct answers and provide feedback
-print(user_name + ", you scored " + str(correct) + "/" + str(questions))
 ```
 
     Hello, chrissie running /bin/python
-    You will be asked 5 questions.
+    You will be asked 15 questions.
     Let's Begin!
-    Correct!
-    chrissie, you scored 1/5
+    What statement is used to evaluate booleans?
+    Incorrect
+    Why are booleans important?
+    Incorrect
+    What is conditional for?
+    Incorrect
+    What is a common relational operator?
+    Incorrect
+    What is the use of logical operators?
+    Incorrect
+    What is the result of 'True and True'?
+    Incorrect
+    What are the possible values of a Boolean variable?
+    Incorrect
+    What is the syntax of an 'if-else' statement in Python?
+    Incorrect
+    What is the purpose of an 'if' statement?
+    Incorrect
+    What does '==' mean in Python?
+    Incorrect
+    What is the result of 'True and False'?
+    Incorrect
+    In Python, what data type represents Boolean values?
+    Incorrect
+    What is the result of 'not True'?
+    Incorrect
+    How can you convert a non-Boolean value to a Boolean in Python?
+    Incorrect
+    What is the result of 'True or (False and True)'?
+    Incorrect
+    chrissie, you scored 0/15
 
