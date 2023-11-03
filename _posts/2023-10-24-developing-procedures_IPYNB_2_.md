@@ -5,7 +5,7 @@ description: College Board 3.12 and 3.13
 toc: True
 comments: True
 type: hacks
-courses: {'compsci': {'week': 9}}
+courses: {'compsci': {'week': 7}}
 ---
 
 ## What is a procedure?
@@ -24,7 +24,7 @@ The procedure is currently just called "procedure." It compares the current grad
 
 
 ```python
-def grading(quiz_grade, current_points, total_points):
+def gradeCalculate(quiz_grade, current_points, total_points):
     # calculate current grade
     current_grade = (current_points / total_points) * 100
 
@@ -37,12 +37,16 @@ quiz_grade = 85  # Initial quiz grade
 current_points = 90  # Current points earned
 total_points = 100  # Total points for the quiz
 
-new_quiz_grade = grading(quiz_grade, current_points, total_points)
+new_quiz_grade = gradeCalculate(quiz_grade, current_points, total_points)
 
 print(f"Old quiz grade: {quiz_grade}")
 print(f"New quiz grade: {new_quiz_grade}")
 
 ```
+
+    Old quiz grade: 85
+    New quiz grade: 90.0
+
 
 ## Function Parameters
 A function can have one or more parameters that can be passed into the function as local variables to use in the procedural function. The variables that can be passed in the function are called parameters. The data passed in when the function is called are called arguments.
@@ -67,6 +71,17 @@ print(triangle_area(6, 8))
 print(triangle_area(12, 89))
 ```
 
+    length: 3
+    width: 4
+    6.0
+    length: 6
+    width: 8
+    24.0
+    length: 12
+    width: 89
+    534.0
+
+
 ## Procedure Algorithm / How Procedures Work
 Remember that procedures are essentially a set of programming instructions, or lines of code, that accomplish a goal. When executed, each line of code is executed in order (step after step after step) to get to the goal.
 
@@ -88,6 +103,9 @@ def applyTax(price, percentTax): # When writing a procedure, first decide what p
 cost = applyTax(10, 50)
 print(cost)
 ```
+
+    15.0
+
 
 ### CollegeBoard Pseudo-Code
 - Note that the pseudo-code below has the exact same purpose as the actual code above. Ignore the breaks and spaces since they are used for formatting.
@@ -120,11 +138,13 @@ PROCEDURE applyTax (price, percentTax) <br>
 - ROTATE_RIGHT() - Rotates the robot 90 degrees right
 
 > Your code here:
-
-PROCEDURE detour (ROTATE_LEFT, ROTATE_RIGHT, MOVE_BACKWARD, MOVE_FORWARD)
-{
-    detour <-- ROTATE_LEFT + MOVE_FORWARD + ROTAT_RIGHT + MOVE_FORWARD + MOVE_FORWARD + ROTATE_RIGHT
-}
+ROTATE_LEFT()
+MOVE_FORWARD()
+ROTATE_RIGHT()
+MOVE_FORWARD()
+MOVE_FORWARD()
+ROTATE_RIGHT()
+MOVE_FORWARD()
 
 ## Procedure Return Values
 When a procedure is run, it executes a series of calculations or commands and at some point and needs to provide a useful result. The return statement is what allows us to return a useful value back to the calling code. The returns statement can return various types of values such as booleans, integers, strings, etc.
@@ -141,21 +161,18 @@ Define a function named calculate_grade that takes a student's score as a parame
 
 
 ```python
-# your code here
+def calculate_grade(score):
+    if score >= 50:
+        print("Passed")
+    else:
+        print("Failed")
 
-def calculate_grade(quiz_grade):
-    # calculate current grade
-
-    if str(quiz_grade) > 50:
-        result = ("passed")
-
-    return result
-
-quiz_grade = input("what is your test score?")
-
-
-print("You've " + str(result) + "the test")
+score = 50
+calculate_grade(score)
 ```
+
+    Passed
+
 
 # Homework
 ## Instructions
@@ -172,87 +189,111 @@ Write a procedure to apply a percent discount to a set price. See the example ab
 
 
 ```python
-# your code here
+def discount(price, discountPercentage):
+    # convert discount to decimal (80 -> .80)
+    # multiply price by it
+    # remove that from the price
+    price = price - (price * (discountPercentage / 100))
+    return price
 
-# Procedure called "applyDiscount" that applies a percent discount to a price
-def applyDiscount(price, percentDiscount): # When writing a procedure, first decide what parameters you will need to accomplish your goal
-    # Step 1: Calculate the amount discounted
-    DiscountAmount = price * percentDiscount/100
+discount_ = 80 # 80% off
+price = 100 # 100 $100
 
-    # Step 2: Add the discounted amount to the price to get the end amount
-    endAmount = price - DiscountAmount
-
-    return endAmount
-
-# Use procedure to apply a 50% discount to a price of $10
-cost = applyDiscount(10, 50)
-print(cost)
+print(f"${price} with an {discount_}% is ${discount(price, discount_)}")
 
 ```
 
-    5.0
+    $100 with an 80% is $20.0
 
 
 ### Question 2
 Create your own robot problem! Include a picture with a square grid to represent the map and triangle to represent the robot. Add a flag to a square to represent the end-point and a shaded-in block to represent a detour. Write a procedure in pseudo-code to move the robot from the start, past the detour, and to the end point.
 
-Add your image here by adding the link between the "" and removing the comment formatting
-<img src="_notebooks/images/grid.png">
+Add your image here by adding the link between the "" and removing the comment formatting:
+<!-- <img src=""> -->
+
+### Hack 2: Robot Pseudo-Code
+![maze](images/maze.jpg)
+
+> Instructions:
+- Move the triangle to the end while getting the coin
+
+> Commands
+- MOVE_FORWARD() - Moves the robot forward one square
+- MOVE_BACKWARD() - Moves the robot backward one square
+- ROTATE_LEFT() - Rotates the robot 90 degrees left
+- ROTATE_RIGHT() - Rotates the robot 90 degrees right
 
 
-```python
-# your code here
-```
+CODE:
+MOVE_FORWARD()
+MOVE_FORWARD()
+ROTATE_RIGHT()
 
+MOVE_FORWARD()
+MOVE_FORWARD()
+ROTATE_RIGHT()
 
-      File "/tmp/ipykernel_11212/1072243803.py", line 1
-        <img src="https://media.discordapp.net/attachments/1143438030749847604/1165903186473783317/image.png?ex=65488af5&is=653615f5&hm=349a4cfef60546b6f85e59a2448ac85ed4fd0181d63f70456904909e46401d74&=">
-        ^
-    SyntaxError: invalid syntax
+MOVE_FORWARD()
+MOVE_FORWARD()
+MOVE_FORWARD()
+MOVE_FORWARD()
+ROTATE_RIGHT()
 
+MOVE_FORWARD()
+MOVE_FORWARD()
 
+ROTATE_RIGHT()
+ROTATE_RIGHT()
+
+MOVE_FORWARD()
+MOVE_FORWARD()
+ROTATE_LEFT()
+
+MOVE_FORWARD()
+MOVE_FORWARD()
+MOVE_FORWARD()
+MOVE_FORWARD()
+ROTATE_RIGHT()
+
+MOVE_FORWARD()
+MOVE_FORWARD()
+ROTATE_RIGHT()
+
+MOVE_FORWARD()
+MOVE_FORWARD()
+MOVE_FORWARD()
+MOVE_FORWARD()
 
 ### Question 3
 Create a program that asks for user input of an integer *n*, and return an array that contains all the prime numbers up to the number *n* (inclusive). Remember to use multiple different functions to better organize the code and increase efficiency.
 
 
 ```python
-def primes(n):
-    if n < 2:
-        return False
-    for i in range(2, int(n ** 0.5) + 1):
-        if n % i == 0:
-            return False
-    return True
+def prime(num): # prime checker
+  if num < 2: # is number less than 2
+    return False
+  for i in range(2, int(num**0.5) + 1):
+    if num % i == 0:
+      return False
+  return True
 
-def get_primes_up_to_n(n):
-    primes = []
-    for i in range(2, n + 1):
-        if is_prime(i):
-            primes.append(i)
-    return primes
+def getPrime(n): # creating the array
+  primes = []
+  for num in range(2, n + 1):
+    if prime(num):
+      primes.append(num) # append the prime number to the array
+  return primes
 
-def main():
-    try:
-        n = int(input("Enter an integer n: "))
-        if n < 2:
-            print("There are no prime numbers less than 2.")
-        else:
-            prime_numbers = get_primes_up_to_n(n)
-            print(f"Prime numbers up to {n}: {prime_numbers}")
-    except ValueError:
-        print("Invalid input. Please enter a valid integer.")
+n = int(input("Enter an integer n: ")) # primpt for input
+if n < 2:
+  print("Please enter a number greater than or equal to 2.") # make sure the n is valid
+else:
+  result = getPrime(n) # check the result
+  print(f"Prime numbers up to {n}: {result}") # print the array
 
-if __name__ == "__main":
-    main()
 
-# tests
-print(primes(5))
-print(primes(12))
-print(primes(35))
 ```
 
-    True
-    False
-    False
+    Prime numbers up to 37: [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37]
 
