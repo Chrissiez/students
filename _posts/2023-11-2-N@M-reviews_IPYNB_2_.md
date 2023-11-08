@@ -5,7 +5,7 @@ layout: post
 title: N@tM reviews
 description: reviews
 type: hacks
-courses: {'compsci': {'week': 7}}
+courses: {'compsci': {'week': 10}}
 ---
 
 ## Nitin's College Rankings

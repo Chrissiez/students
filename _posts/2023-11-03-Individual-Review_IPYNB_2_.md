@@ -5,7 +5,7 @@ layout: post
 title: Individual Review
 description: reviews
 type: hacks
-courses: {'compsci': {'week': 7}}
+courses: {'compsci': {'week': 10}}
 ---
 
 # Individual Code 

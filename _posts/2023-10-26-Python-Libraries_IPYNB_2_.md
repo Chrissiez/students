@@ -4,8 +4,8 @@ comments: True
 layout: post
 title: Student Lesson Python Libraries
 description: To teach the class how to use public Python libraries around the internet
-type: hacks
-courses: {'csp': {'week': 7}}
+type: tangibles
+courses: {'compsci': {'week': 10}}
 ---
 
 ### What is a Library?

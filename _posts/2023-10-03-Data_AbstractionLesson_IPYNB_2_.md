@@ -3,7 +3,7 @@ toc: True
 comments: False
 layout: post
 title: Data Abstraction
-type: hacks
+type: tangibles
 courses: {'compsci': {'week': 7}}
 ---
 

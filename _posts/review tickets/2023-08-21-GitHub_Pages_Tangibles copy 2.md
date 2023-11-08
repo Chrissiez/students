@@ -4,7 +4,7 @@ comments: false
 layout: post
 title: Review Ticket
 description: plan check present
-type: tangibles
+type: plans
 courses: { compsci: {week: 0} }
 ---
 

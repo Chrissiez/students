@@ -5,7 +5,7 @@ description: A Tech Talk on Linux and the Bash shell.
 toc: True
 comments: True
 courses: {'compsci': {'week': 9}}
-type: hacks
+type: tangibles
 ---
 
 # Made by: Ryan, Daniel, Saaras, Will, and Andrew

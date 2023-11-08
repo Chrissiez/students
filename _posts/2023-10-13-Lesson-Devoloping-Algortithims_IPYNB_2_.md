@@ -3,7 +3,7 @@ toc: True
 comments: False
 layout: post
 title: Developing Algorithms
-type: plans
+type: tangibles
 courses: {'compsci': {'week': 9}}
 ---
 

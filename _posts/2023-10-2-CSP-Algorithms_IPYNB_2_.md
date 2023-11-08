@@ -3,7 +3,7 @@ toc: False
 layout: post
 title: ALGORITHMS
 description: Team SRSC
-type: hacks
+type: tangibles
 courses: {'compsci': {'week': 7}}
 comments: True
 ---

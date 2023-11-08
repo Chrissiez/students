@@ -4,7 +4,7 @@ comments: False
 layout: post
 title: Boolean, If Lesson
 description: Team LEIA
-type: hacks
+type: tangibles
 courses: {'compsci': {'week': 8}}
 ---
 

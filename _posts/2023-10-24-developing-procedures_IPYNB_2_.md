@@ -4,8 +4,8 @@ title: Developing Procedures
 description: College Board 3.12 and 3.13
 toc: True
 comments: True
-type: hacks
-courses: {'compsci': {'week': 7}}
+type: tangibles
+courses: {'compsci': {'week': 10}}
 ---
 
 ## What is a procedure?

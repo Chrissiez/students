@@ -5,7 +5,7 @@ layout: post
 title: College Board Quiz
 description: notes about the quiz
 type: hacks
-courses: {'compsci': {'week': 7}}
+courses: {'compsci': {'week': 10}}
 ---
 
 # Questions
