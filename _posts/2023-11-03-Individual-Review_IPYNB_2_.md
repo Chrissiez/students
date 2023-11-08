@@ -36,7 +36,9 @@ Once Harkirat set up the backend API. I started to learn how to add data to the 
 
 This is a side project I did with Arushi
 
-Since we weren't as advanced as the other members in our group, we had difficulty adding meaningful commits.
+Since we weren't as advanced as the other members in our group, we had difficulty adding meaningful commits. So, we decided to create our own side project.
+
+
 
 
 
@@ -44,5 +46,27 @@ Since we weren't as advanced as the other members in our group, we had difficult
 # Individual Blog
 
 ## Student Lessons
+
+Student Lessons are organized chronologically and in a separate column. I make sure to complete all hacks and do all the homework to make the most out of the student lessons. I try to show as much effort as possible, especially in the homework.
+
+## Pseudo Code
+
+DISPLAY ("What's your name?")
+name <- INPUT ()
+DISPLAY ("Hello")
+DISPLAY (name)
+Pseudo code lets you draft code before it’s written. Here, there’s code to display your name with user input. 
+
+I think pseduo code is pretty useful and beginner friendly considering you don't have remember to add <> or ; after each line of code like in html and javascript.
+
+## Analytics
+
+![analytics](images/tri_1_analytics.png)
+
+## Reflection
+
+I learned a lot new skills over the course of this trimester. I feel like there was a massive learning curve, but hopefully I will start picking up on things quicker in the next two trimesters. I learned a lot about markdown, javascript, python, html, CSS, github, and linux bash and shell. I feel like I'm starting to understand markdown, css, and python more, but I feel like I still don't really understand linux bash and sheel and js 
+
+Not only did I expand my knowledge coding-wise, but I also now know what kind of group I should be looking for. Orginally, I assumed joining a group of people who were more experienced would be more beneficial since they could teach me. But I quickly found that it was actually harder for me to learn, as a lot of the coding would be done at home and without any information on how they did it. 
 
 
