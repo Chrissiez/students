@@ -8,4 +8,8 @@ type: hacks
 courses: {'compsci': {'week': 7}}
 ---
 
-# 
+# Small Discoveries
+
+# Github Analytics Review
+
+# Refelctions
