@@ -21,9 +21,6 @@ Hello, Welcome to my Blog! My name is Chrissie.
 - Eating
 
 
-## A Drawing I Made:
-![drawing](_notebooks/images/image.png)
-
 ## Schedule:
 
 
