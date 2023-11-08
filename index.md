@@ -22,7 +22,7 @@ Hello, Welcome to my Blog! My name is Chrissie.
 
 
 ## A Drawing I Made:
-<img src="images/image.png" alt="drawing" width="200"/>
+![drawing](_notebooks/images/image.png)
 
 ## Schedule:
 
