@@ -28,5 +28,36 @@ Analog signals are sampled digitally at discrete intervals over time. These samp
 
 While some programs or procedures take audio data as input, this is not how audio data are represented digitally. At the lowest level, all digital data are represented as sequences of bits
 
-I 
+## Q55 Move element from end of list to beginning
 
+A code segment is intended to transform the list utensils so that the last element of the list is moved to the beginning of the list.
+For example, if utensils initially contains ["fork", "spoon", "tongs", "spatula", "whisk"], it should contain ["whisk", "fork", "spoon", "tongs", "spatula"] after executing the code segment.
+Which of the following code segments transforms the list as intended?
+
+### Correct Answer: C
+
+len 
+ LENGTH(utensils)
+
+temp 
+ utensils[len]
+
+REMOVE(utensils, len)
+
+INSERT(utensils, 1, temp)
+
+This code segment assigns the value of the last element of the list to the variable temp, then removes the last element of the list, then inserts temp as the first element of the list.
+
+### My Answer: A
+
+len 
+ LENGTH(utensils)
+
+temp 
+ utensils[len]
+
+REMOVE(utensils, len)
+
+APPEND(utensils, temp)
+
+This code segment assigns the value of the last element of the list to the variable temp, then removes the last element of the list, then appends temp to the end of the list. The resulting list is the same as the original list.
